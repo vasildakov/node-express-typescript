@@ -19,7 +19,9 @@ class UserController {
             }
     
             // const result: GetUsersResponse
-            const result = (await res.json()) as GetUsersResponse;
+            // const result = (await res.json()) as GetUsersResponse;
+            const result: GetUsersResponse = await res.json();
+
             //console.log('result is: ', JSON.stringify(result, null, 4));
         
             response.status(200).json(result);
