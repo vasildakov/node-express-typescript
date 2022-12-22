@@ -4,7 +4,7 @@
 
 Clone the repository
 
-```sh
+```console
 git clone git@github.com:vasildakov/node-express-typescript.git
 ```
 
