@@ -35,4 +35,4 @@ class AuthorController {
     }
 }
 
-export default AuthorController;
+export { AuthorController }
