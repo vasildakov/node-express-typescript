@@ -10,24 +10,25 @@ git clone git@github.com:vasildakov/node-express-typescript.git
 
 Install node dependencies
 
-```sh
+```console
 npm install
 ```
 
 Run tests
 
-```sh
+```console
 jest --coverage --verbose --testPathPattern=./tests
 ```
 
 Run the app
 
-```sh
+```console
 nodemon --watch src src/index.ts
 ```
 
 Compile the source
 
-```sh
+```console
 tsc
+node dist/index.js
 ```
